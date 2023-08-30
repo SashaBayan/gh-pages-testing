@@ -3,13 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helvetica Lake LLC</title>
+    <title>Helvetica Lake Consulting</title>
     <style>
-        body { font-family: Arial, sans-serif; display: flex; height: 100vh; justify-content: center; align-items: center; background-color: #f0f0f0; }
-        h1 { color: #333; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 1000px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        header {
+            background-color: #5779c2;
+            padding: 10px 0;
+            text-align: center;
+        }
+        button {
+            background-color: #5779c2;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #5779c2;
+            padding: 10px 0;
+            margin-top: 20px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to Helvetica Lake LLC!</h1>
+
+<header>
+    <h1>Helvetica Lake LLC</h1>
+    <h2>Innovative Software Solutions Tailored to Your Needs</h2>
+</header>
+
+<section id="intro">
+    <p>Welcome to Helvetica Lake Consulting. We specialize in bridging the gap between your business needs and innovative software solutions. With a vast array of experience ranging from frontend development to intricate backend systems, we’re your one-stop shop for all things software.</p>
+    <button onclick="location.href='#services'">Explore Our Services</button>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <p>At Helvetica Lake LLC, we believe in the power of innovation and efficient software design. Founded by Sasha Khadivian, an engineer with years of experience at renowned companies like Airbnb, Apple, and Urbandoor, our mission is to help businesses unlock their full potential through tailored software solutions. With deep expertise in various languages and tools, and a passion for driving projects to completion, we are committed to ensuring your software needs are met with precision and dedication.</p>
+</section>
+
+<section id="services">
+    <h2>Services</h2>
+    <p>We offer a broad spectrum of software engineering services tailored to your needs. Our specialties include:</p>
+    <ul>
+        <li>Web Development: With expertise in Nextjs, React, and Ruby on Rails, we can build robust, user-friendly web applications.</li>
+        <li>Database Management: Be it PostgreSQL or MongoDB, we've got your data needs covered.</li>
+        <li>DevOps: Seamless deployment and scalable solutions using platforms like Amazon S3 and Google Cloud Run.</li>
+        <li>Consultation: Leverage our experience to drive your software projects forward, from planning to execution.</li>
+    </ul>
+    <button onclick="location.href='#contact'">Get in Touch</button>
+</section>
+
+<section id="portfolio">
+    <h2>Case Studies/Portfolio</h2>
+    <p>Our work speaks for itself. Here are a few select projects we've undertaken:</p>
+    <ul>
+        <li>Guardian Life: Spearheaded the rebuild of an Admin portal CMS, transitioned authentication flows, and led the migration from Material UI to TailwindCSS.</li>
+        <li>Reforge: Translated design systems into reusable React components, integrated GraphQL with Ruby on Rails, and improved team's development velocity.</li>
+        <li>FlyFlat: Built a dynamic CMS dashboard, engineered Stripe checkout flows, and designed mailing list modules with Mailchimp.</li>
+    </ul>
+</section>
+
+<section id="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>"Sasha is a brilliant and incredibly talented engineer. He leveled up our whole team while we worked together. I love his thoughtful, incisive code reviews, his tidy, well-tested code, and the way he is able to break down large problems into small, manageable pieces. Sasha is really a joy to work with - I learned so much from working together! I would love to be on the same team again." - Abby Howell, Reforge</blockquote>
+    <blockquote>"Sasha is a thoughtful and effective software engineer and architect. Just as importantly, he's a pleasure to work with and ramps up on projects quickly. Sasha has not only worked on many complex tech stacks, but he has experience with a wide range of teams. So he knows the right way to build and the right way to steer coworkers toward good solutions. I'd be happy for us to have Sasha working with us on more projects soon." - Matt Conrad, Reforge</blockquote>
+    <blockquote>"Sasha has some of the best problem solving skills I've ever seen. The project we worked on together required a constant state of change and Sasha was up for the challenge. His attitude never wavered and he delivered on a high quality product that solved a big problem for our company." - Cameron Resnick, FlyFlat</blockquote>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>We're here to help you navigate your software journey. If you'd like a consultation or have any questions, feel free to drop us an email and let’s build something exceptional together.</p>
+    <p>Email us at: <a href="mailto:info@helveticalake.com">info@helveticalake.com</a></p>
+</section>
+
+
+<footer>
+    <p>
+        Phone: (650) 550-8584<br>
+        Email: <a href="mailto:info@helveticalake.com">info@helveticalake.com</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/companies/helvetica-lake" target="_blank" rel="noopener noreferrer">linkedIn.com/companies/helvetica-lake</a><br>
+    </p>
+</footer>
+
 </body>
 </html>
